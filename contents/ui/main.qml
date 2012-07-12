@@ -11,7 +11,7 @@ Item {
     property int update_interval: 1 //in minutes
 
     PlasmaCore.DataSource {
-        id: fbSource
+        id: redditSource
         engine: "rss"
         interval: update_interval*60000
         property int lastTime
