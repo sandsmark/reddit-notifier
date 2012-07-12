@@ -99,7 +99,7 @@ Item {
             bottomMargin: 5
         }
         model: PlasmaCore.DataModel {
-            dataSource: fbSource
+            dataSource: redditSource
             keyRoleFilter: "items"
         }
         clip: true
