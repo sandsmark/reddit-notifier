@@ -107,7 +107,8 @@ Item {
         delegate: Notification {
             width: view.width
             icon: model["icon"]
-            text: model["description"]
+            text: model["title"]
+//             text: model["description"]
             link: model["link"]
         }
 

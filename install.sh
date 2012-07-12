@@ -1,2 +1,2 @@
 #!/bin/sh
-zip -r fbnotifier.plasmoid * && plasmapkg -u fbnotifier.plasmoid
+zip -r redditnotifier.plasmoid * && plasmapkg -u redditnotifier.plasmoid
