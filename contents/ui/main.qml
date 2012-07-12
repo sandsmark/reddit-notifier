@@ -67,7 +67,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent
-            onClicked: plasmoid.openUrl("http://www.facebook.com/")
+            onClicked: plasmoid.openUrl("http://www.reddit.com/")
         }
     }
 
