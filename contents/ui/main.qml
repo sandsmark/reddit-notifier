@@ -43,7 +43,7 @@ Item {
             feedUrl = url;
             plasmoid.busy = true;
             titleLabel.text = "Fetching notifications...";
-            fbSource.connectedSources = [feedUrl];
+            redditSource.connectedSources = [feedUrl];
         }
     }
 
