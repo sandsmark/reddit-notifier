@@ -1,11 +1,11 @@
-This is a KDE plasmoid that shows facebook notifications
-from the RSS feed of notifications from your facebook account.
+This is a KDE plasmoid that shows reddit notifications
+from the RSS feed of notifications from your reddit account.
 
 It sits in the panel, and pops up if there is a new notification.
-Clicking on a notification will open the relevant facebook page
+Clicking on a notification will open the relevant reddit page
 in user's default browser.
 Fun-fact: Clicking on the title in the plasmoid will take you
-straight to facebook.com in your browser!
+straight to reddit.com in your browser!
 
 =INSTALL=========
 
@@ -15,7 +15,7 @@ You would also require the 'zip' package installed.
 
 Make and install the plasmoid package from source:
 
-$ cd facebook-notifier-kde-plasmoid/
+$ cd reddit-notifier-kde-plasmoid/
 $ sh install.sh
 
 The plasmoid is now installed and can now be added to the desktop/panel
@@ -25,18 +25,20 @@ The source directory can also be safely deleted.
 
 =USAGE==========
 
-After the plasmoid is added, go to "Facebook Notifier Settings" by
-right-clicking on the plasmoid, and enter your facebook account's
-RSS feed URL for notifications. To get the feed URL, open your facebook
-account in a browser, open your notifications and go to "See All
-Notifications". On the page that opens, find the line "Get notifications
-via:" and copy the link address of the link "RSS" on that line.
-Paste the URL in plasmoid's settings box and click OK. This is a
-one-time procedure (whenever you add the plasmoid) and the notifications
-will be synced on your desktop with an interval of one minute.
+After the plasmoid is added, go to "Reddit Notifier Settings" by right-clicking
+on the plasmoid, and enter your reddit account's RSS feed URL for
+notifications. To get the feed URL, open your reddit account in a browser, go
+to preferences, RSS feeds, and get the URL of the feed you want. Paste the URL
+in plasmoid's settings box and click OK. This is a one-time procedure (whenever
+you add the plasmoid) and the notifications will be synced on your desktop with
+an interval of one minute.
 
-=AUTHOR=========
+=AUTHORS=========
 
+Name: Martin Sandsmark
+Email: martin.sandsmark@kde.org
+
+Original author:
 Name: Viranch Mehta
 Email: viranch.mehta@gmail.com
 
@@ -46,6 +48,7 @@ The following license applies to all of the content residing in the
 directory that contains this README:
 
 Copyright (C) 2012 by Viranch Mehta <viranch.mehta@gmail.com>
+Copyright (C) 2012 by Martin Sandsmark <martin.sandsmark@kde.org>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU Library General Public License as
