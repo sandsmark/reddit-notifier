@@ -108,7 +108,6 @@ Item {
             width: view.width
             icon: model["icon"]
             text: model["title"]
-//             text: model["description"]
             link: model["link"]
         }
 
